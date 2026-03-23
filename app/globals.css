@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #f7f8f7;
+  background:
+    radial-gradient(circle at top, rgba(76, 175, 80, 0.18), transparent 32%),
+    linear-gradient(180deg, #07130c 0%, #0d1f13 55%, #06110a 100%);
+}
+
+::selection {
+  background: rgba(244, 197, 66, 0.35);
+  color: white;
+}
